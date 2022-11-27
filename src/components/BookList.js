@@ -9,7 +9,7 @@ const BookList = ({ books, deleteBookById, editBookById}) => {
             key={book.id}
             deleteBookById={deleteBookById}
             editBookById={editBookById}
-            book={book}/> 
+            book={book}/>
         });
     }
 
